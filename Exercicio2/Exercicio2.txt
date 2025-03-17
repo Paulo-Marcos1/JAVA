@@ -1,4 +1,4 @@
-               Sendo feito ainda!
+
 !- Incluindo a classe aluno metodo de leitura de notas (n1 a n4)
 #-FEITO!
 
@@ -7,9 +7,11 @@
 #-FEITO
 
 !- na classe main realizar a instanciação de 3 objetos do tipo aluno
-#- Ainda não!
+#- Feito
 
 ! na classe main incluir metodo que exiba na tela nome e média dos 
 alunos ordenado por media
 
-#- Ta exibindo nome e média, agora o resto...
+#- Feito
+
+*Finalizado*
