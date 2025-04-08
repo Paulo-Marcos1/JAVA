@@ -18,11 +18,9 @@ public class Main {
              pessoa1.setEndereco(endereco);
              System.out.print("Digite seu numero de celular: ");
              long tel = input.nextLong();
-             input.nextLine();
              pessoa1.setTel(tel);
              System.out.print("Digite o seu CPF: ");
              long cpf = input.nextLong();
-             input.nextLine();
              pessoa1.setCPF(cpf);
              System.out.println("Mostrando informações.");
              System.out.println("Nome: "+ pessoa1.getNome());
@@ -40,11 +38,9 @@ public class Main {
              pessoa.setEndereco(endereco);
              System.out.print("Digite seu numero de celular: ");
              long tel = input.nextLong();
-             input.nextLine();
              pessoa.setTel(tel);
              System.out.print("Digite o seu CNPJ: ");
              long cnpj = input.nextLong();
-             input.nextLine();
              pessoa.setCNPJ(cnpj);
              System.out.println("Mostrando informações.");
              System.out.println("Nome: "+ pessoa.getNome());
