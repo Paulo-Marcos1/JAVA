@@ -1,15 +1,19 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+
 public class Main {
     public static void main(String[] args) {
-
         JFrame janela = new JFrame("salva nois");
         janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        janela.setSize(500,500);
+
+
+
+        janela.setLayout(new FlowLayout());
 
         JButton botao = new JButton("Clique aqui!");
-        botao.setSize(200,200);
+        botao.setPreferredSize(new Dimension(100, 100));
+
         botao.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -18,7 +22,7 @@ public class Main {
         });
 
         janela.add(botao);
-
+        janela.pack();
         janela.setVisible(true);
     }
 }
