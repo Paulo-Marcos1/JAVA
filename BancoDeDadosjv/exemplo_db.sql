@@ -16,16 +16,10 @@ email VARCHAR(100),
 idade INTEGER
 );
 
-#SEGUNDO SCRIPT
 
 INSERT INTO cliente (nome, email, idade) VALUES
 ('Alice Santos', 'alice@email.com', 30),
 ('Bruno Lima', 'bruno@email.com', 25),
 ('Carla Souza', 'carla@email.com', 35);
 
-SELECT *
-FROM cliente
 
-SELECT *
-FROM cliente
-WHERE (idade > 24)
